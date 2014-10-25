@@ -6,6 +6,9 @@ shinyUI(fluidPage(
  
   # Application title
   titlePanel("Hit the Target!"),
+  helpText("Select the cannon angle and velocity.",
+           "Aim for the black line on the right.",
+           "If you hit it you will see You Win."),
 
   # Sidebar with a slider input for the number of bins
   sidebarLayout(
